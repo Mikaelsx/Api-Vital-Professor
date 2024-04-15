@@ -1,0 +1,212 @@
+[
+  {
+    "id": "c55266df-9f14-4585-9dc4-51240d832ca0",
+    "situacaoId": "800cb32e-7b2d-4a19-afae-ae8a8ab19200",
+    "pacienteId": "91a65bfe-4413-450f-b063-7d8247311076",
+    "medicoClinicaId": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+    "receitaId": "72f3660e-606a-41ed-b2af-46f34128060a",
+    "prioridadeId": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+    "dataConsulta": "2024-04-08T15:04:58.957",
+    "descricao": "consulta dor de dente",
+    "diagnostico": "dente obliterado",
+    "exames": [],
+    "medicoClinica": {
+      "id": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+      "clinicaId": "3a34320c-0b11-4210-9894-8dc2e4d9d06b",
+      "medicoId": "20adeba5-300e-4479-bc64-01584caff270",
+      "consulta": [
+        {
+          "id": "84a508ff-4611-4c15-9529-b567a9216fd1",
+          "situacaoId": "b95a1627-d4a6-4b23-a7f2-898a4103fe5e",
+          "pacienteId": "91a65bfe-4413-450f-b063-7d8247311076",
+          "medicoClinicaId": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+          "receitaId": "72f3660e-606a-41ed-b2af-46f34128060a",
+          "prioridadeId": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+          "dataConsulta": "2024-04-08T15:04:58.957",
+          "descricao": "consulta dor de cabeca",
+          "diagnostico": "dor de cabeca",
+          "exames": [],
+          "prioridade": {
+            "id": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+            "prioridade": 1,
+            "consulta": []
+          },
+          "situacao": {
+            "id": "b95a1627-d4a6-4b23-a7f2-898a4103fe5e",
+            "situacao": "Realizadas",
+            "consulta": []
+          }
+        }
+      ],
+      "medico": {
+        "id": "20adeba5-300e-4479-bc64-01584caff270",
+        "especialidadeId": "7ec2273f-f5c9-42e5-a8b4-abfdab035f02",
+        "crm": "123456",
+        "enderecoId": "a7353f3e-7f77-4347-b10a-dba0874627d7",
+        "idNavigation": {
+          "id": "20adeba5-300e-4479-bc64-01584caff270",
+          "tipoUsuarioId": "274f89c1-795e-4ff0-b7dd-5c39bafe8b35",
+          "nome": "Matheus",
+          "email": "matheus@gmail.com",
+          "senha": "$2a$11$z7oDSouvoKdTOlC4IQkdmem/BDBL0cOj221UVij3tdVGLRzIGTQ.q",
+          "foto": "string"
+        },
+        "medicosClinicas": []
+      }
+    },
+    "prioridade": {
+      "id": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+      "prioridade": 1,
+      "consulta": [
+        {
+          "id": "84a508ff-4611-4c15-9529-b567a9216fd1",
+          "situacaoId": "b95a1627-d4a6-4b23-a7f2-898a4103fe5e",
+          "pacienteId": "91a65bfe-4413-450f-b063-7d8247311076",
+          "medicoClinicaId": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+          "receitaId": "72f3660e-606a-41ed-b2af-46f34128060a",
+          "prioridadeId": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+          "dataConsulta": "2024-04-08T15:04:58.957",
+          "descricao": "consulta dor de cabeca",
+          "diagnostico": "dor de cabeca",
+          "exames": [],
+          "medicoClinica": {
+            "id": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+            "clinicaId": "3a34320c-0b11-4210-9894-8dc2e4d9d06b",
+            "medicoId": "20adeba5-300e-4479-bc64-01584caff270",
+            "consulta": [],
+            "medico": {
+              "id": "20adeba5-300e-4479-bc64-01584caff270",
+              "especialidadeId": "7ec2273f-f5c9-42e5-a8b4-abfdab035f02",
+              "crm": "123456",
+              "enderecoId": "a7353f3e-7f77-4347-b10a-dba0874627d7",
+              "idNavigation": {
+                "id": "20adeba5-300e-4479-bc64-01584caff270",
+                "tipoUsuarioId": "274f89c1-795e-4ff0-b7dd-5c39bafe8b35",
+                "nome": "Matheus",
+                "email": "matheus@gmail.com",
+                "senha": "$2a$11$z7oDSouvoKdTOlC4IQkdmem/BDBL0cOj221UVij3tdVGLRzIGTQ.q",
+                "foto": "string"
+              },
+              "medicosClinicas": []
+            }
+          },
+          "situacao": {
+            "id": "b95a1627-d4a6-4b23-a7f2-898a4103fe5e",
+            "situacao": "Realizadas",
+            "consulta": []
+          }
+        }
+      ]
+    },
+    "situacao": {
+      "id": "800cb32e-7b2d-4a19-afae-ae8a8ab19200",
+      "situacao": "Agendadas",
+      "consulta": []
+    }
+  },
+  {
+    "id": "84a508ff-4611-4c15-9529-b567a9216fd1",
+    "situacaoId": "b95a1627-d4a6-4b23-a7f2-898a4103fe5e",
+    "pacienteId": "91a65bfe-4413-450f-b063-7d8247311076",
+    "medicoClinicaId": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+    "receitaId": "72f3660e-606a-41ed-b2af-46f34128060a",
+    "prioridadeId": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+    "dataConsulta": "2024-04-08T15:04:58.957",
+    "descricao": "consulta dor de cabeca",
+    "diagnostico": "dor de cabeca",
+    "exames": [],
+    "medicoClinica": {
+      "id": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+      "clinicaId": "3a34320c-0b11-4210-9894-8dc2e4d9d06b",
+      "medicoId": "20adeba5-300e-4479-bc64-01584caff270",
+      "consulta": [
+        {
+          "id": "c55266df-9f14-4585-9dc4-51240d832ca0",
+          "situacaoId": "800cb32e-7b2d-4a19-afae-ae8a8ab19200",
+          "pacienteId": "91a65bfe-4413-450f-b063-7d8247311076",
+          "medicoClinicaId": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+          "receitaId": "72f3660e-606a-41ed-b2af-46f34128060a",
+          "prioridadeId": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+          "dataConsulta": "2024-04-08T15:04:58.957",
+          "descricao": "consulta dor de dente",
+          "diagnostico": "dente obliterado",
+          "exames": [],
+          "prioridade": {
+            "id": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+            "prioridade": 1,
+            "consulta": []
+          },
+          "situacao": {
+            "id": "800cb32e-7b2d-4a19-afae-ae8a8ab19200",
+            "situacao": "Agendadas",
+            "consulta": []
+          }
+        }
+      ],
+      "medico": {
+        "id": "20adeba5-300e-4479-bc64-01584caff270",
+        "especialidadeId": "7ec2273f-f5c9-42e5-a8b4-abfdab035f02",
+        "crm": "123456",
+        "enderecoId": "a7353f3e-7f77-4347-b10a-dba0874627d7",
+        "idNavigation": {
+          "id": "20adeba5-300e-4479-bc64-01584caff270",
+          "tipoUsuarioId": "274f89c1-795e-4ff0-b7dd-5c39bafe8b35",
+          "nome": "Matheus",
+          "email": "matheus@gmail.com",
+          "senha": "$2a$11$z7oDSouvoKdTOlC4IQkdmem/BDBL0cOj221UVij3tdVGLRzIGTQ.q",
+          "foto": "string"
+        },
+        "medicosClinicas": []
+      }
+    },
+    "prioridade": {
+      "id": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+      "prioridade": 1,
+      "consulta": [
+        {
+          "id": "c55266df-9f14-4585-9dc4-51240d832ca0",
+          "situacaoId": "800cb32e-7b2d-4a19-afae-ae8a8ab19200",
+          "pacienteId": "91a65bfe-4413-450f-b063-7d8247311076",
+          "medicoClinicaId": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+          "receitaId": "72f3660e-606a-41ed-b2af-46f34128060a",
+          "prioridadeId": "93d3c848-0005-411a-96f2-782c3cc5fac1",
+          "dataConsulta": "2024-04-08T15:04:58.957",
+          "descricao": "consulta dor de dente",
+          "diagnostico": "dente obliterado",
+          "exames": [],
+          "medicoClinica": {
+            "id": "d0129cd7-5771-43f4-a8e6-b0e74fc5aed7",
+            "clinicaId": "3a34320c-0b11-4210-9894-8dc2e4d9d06b",
+            "medicoId": "20adeba5-300e-4479-bc64-01584caff270",
+            "consulta": [],
+            "medico": {
+              "id": "20adeba5-300e-4479-bc64-01584caff270",
+              "especialidadeId": "7ec2273f-f5c9-42e5-a8b4-abfdab035f02",
+              "crm": "123456",
+              "enderecoId": "a7353f3e-7f77-4347-b10a-dba0874627d7",
+              "idNavigation": {
+                "id": "20adeba5-300e-4479-bc64-01584caff270",
+                "tipoUsuarioId": "274f89c1-795e-4ff0-b7dd-5c39bafe8b35",
+                "nome": "Matheus",
+                "email": "matheus@gmail.com",
+                "senha": "$2a$11$z7oDSouvoKdTOlC4IQkdmem/BDBL0cOj221UVij3tdVGLRzIGTQ.q",
+                "foto": "string"
+              },
+              "medicosClinicas": []
+            }
+          },
+          "situacao": {
+            "id": "800cb32e-7b2d-4a19-afae-ae8a8ab19200",
+            "situacao": "Agendadas",
+            "consulta": []
+          }
+        }
+      ]
+    },
+    "situacao": {
+      "id": "b95a1627-d4a6-4b23-a7f2-898a4103fe5e",
+      "situacao": "Realizadas",
+      "consulta": []
+    }
+  }
+]

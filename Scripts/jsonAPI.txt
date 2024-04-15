@@ -1,0 +1,12 @@
+exemplo popular consultas cadastrar:
+	{
+  "situacaoId": "B95A1627-D4A6-4B23-A7F2-898A4103FE5E",
+  "pacienteId": "CC8D648B-33D1-467C-87B9-1AB17783C7C9",
+  "medicoClinicaId": "D0129CD7-5771-43F4-A8E6-B0E74FC5AED7",
+  "receitaId": "72F3660E-606A-41ED-B2AF-46F34128060A",
+  "prioridadeId": "93D3C848-0005-411A-96F2-782C3CC5FAC1",
+  "dataConsulta": "2024-05-04T17:34:21.456Z",
+  "descricao": "consulta dor de cabeca",
+  "diagnostico": "dor de cabeca"
+}
+
